@@ -1,0 +1,88 @@
+/*
+Colours:
+  #6A6F84
+  #DC9E82
+  #030027 (main text)
+  #151E3F
+  #F2F3D9 BG
+
+Fonts:
+Serif:
+Sans:
+*/
+
+body{
+  background-color:#F2F3D9;
+  color:#030027;
+  font-size:1rem;
+  font-weight:normal;
+  font-family:helvetica;
+  line-height:1.5;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family:georgia;
+  font-weight:700;
+  line-height:1;
+  margin:1rem;
+}
+
+h1{
+  font-size:2em;
+  text-transform:uppercase;
+}
+
+p{
+  margin: 1rem 0;
+}
+
+a{
+  color:#6A6F84;
+  transition: all 0.2s;
+}
+
+
+a:hover{
+  color:#151E3F;
+  text-shadow: 0.5em;
+ }
+
+.container{
+  padding:0 1rem;
+  max-width:800px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.horizontal_rule{
+    border-bottom:0.125em solid #035E7B;
+    padding-bottom:0.25em;
+}
+
+.site_footer{
+  background-color:#DC9E82;
+  padding-top:.25rem;
+  padding-bottom:.25rem;
+}
+
+.footer_content{
+  margin-right:.5rem;
+  margin-left:.5rem;
+}
+
+.social_icon{
+  width: 20px;
+  height: 20px;
+  margin:.5rem;
+  margin-bottom:.5rem;
+  background-color:#DC9E82;
+}
+
+.img_cont{
+  height:500px ;
+
+}
+
+.published {
+  font-weight: 700;
+}
